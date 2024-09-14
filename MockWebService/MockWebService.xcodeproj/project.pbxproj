@@ -14,6 +14,7 @@
 		F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4922C961D24005319B3 /* LoginView.swift */; };
 		F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */; };
 		F7DAD4992C961E89005319B3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4982C961E89005319B3 /* WebService.swift */; };
+		F7DAD49B2C961F71005319B3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD49A2C961F71005319B3 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F7DAD4922C961D24005319B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F7DAD4982C961E89005319B3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F7DAD49A2C961F71005319B3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		F7DAD4912C961D0C005319B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7DAD49A2C961F71005319B3 /* DashboardView.swift */,
 				F7DAD4922C961D24005319B3 /* LoginView.swift */,
 			);
 			path = Views;
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */,
+				F7DAD49B2C961F71005319B3 /* DashboardView.swift in Sources */,
 				F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */,
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
 				F7DAD4992C961E89005319B3 /* WebService.swift in Sources */,

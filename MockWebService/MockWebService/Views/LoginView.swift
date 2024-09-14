@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
+    @StateObject private var loginVM = LoginViewModel(service: WebService())
+    @State private var message: String = ""
     
     var errorMessage: String {
         switch loginVM.loginStatus {
