@@ -18,16 +18,16 @@
 		F7DAD4B22C9621D5005319B3 /* MockUIUserInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */; };
 		F7DAD4B42C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */; };
 		F7DAD4BB2C962B5E005319B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */; };
+		F7DAD4BE2C962C71005319B3 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4BD2C962C71005319B3 /* MockWebService.swift */; };
+		F7DAD4C02C962CBB005319B3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4982C961E89005319B3 /* WebService.swift */; };
+		F7DAD4C12C962CC2005319B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */; };
+		F7DAD4C42C962E26005319B3 /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4C32C962E26005319B3 /* NetworkServiceFactory.swift */; };
+		F7DAD4C52C962F9E005319B3 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4BD2C962C71005319B3 /* MockWebService.swift */; };
+		F7DAD4C72C963012005319B3 /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4C32C962E26005319B3 /* NetworkServiceFactory.swift */; };
+		F7DAD4C82C963124005319B3 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F7DAD4A42C962085005319B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7DAD4752C961A8D005319B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7DAD47C2C961A8D005319B3;
-			remoteInfo = MockWebService;
-		};
 		F7DAD4B52C9621D5005319B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F7DAD4752C961A8D005319B3 /* Project object */;
@@ -47,22 +47,16 @@
 		F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F7DAD4982C961E89005319B3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F7DAD49A2C961F71005319B3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		F7DAD4A02C962085005319B3 /* MockWebServiceInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockWebServiceInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DAD4AF2C9621D5005319B3 /* MockUIUserInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockUIUserInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIUserInterfaceTests.swift; sourceTree = "<group>"; };
 		F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIUserInterfaceTestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F7DAD4BD2C962C71005319B3 /* MockWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
+		F7DAD4C32C962E26005319B3 /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7DAD47A2C961A8D005319B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7DAD49D2C962085005319B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				F7DAD47D2C961A8D005319B3 /* MockWebService.app */,
-				F7DAD4A02C962085005319B3 /* MockWebServiceInterfaceTests.xctest */,
 				F7DAD4AF2C9621D5005319B3 /* MockUIUserInterfaceTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +94,7 @@
 		F7DAD47F2C961A8D005319B3 /* MockWebService */ = {
 			isa = PBXGroup;
 			children = (
+				F7DAD4C22C962E0B005319B3 /* Factories */,
 				F7DAD48E2C961ABD005319B3 /* Models */,
 				F7DAD4962C961E31005319B3 /* ViewModels */,
 				F7DAD4912C961D0C005319B3 /* Views */,
@@ -157,10 +151,27 @@
 		F7DAD4B02C9621D5005319B3 /* MockUIUserInterfaceTests */ = {
 			isa = PBXGroup;
 			children = (
+				F7DAD4BC2C962C5B005319B3 /* Mocks */,
 				F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */,
 				F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */,
 			);
 			path = MockUIUserInterfaceTests;
+			sourceTree = "<group>";
+		};
+		F7DAD4BC2C962C5B005319B3 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD4BD2C962C71005319B3 /* MockWebService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F7DAD4C22C962E0B005319B3 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD4C32C962E26005319B3 /* NetworkServiceFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,24 +193,6 @@
 			productName = MockWebService;
 			productReference = F7DAD47D2C961A8D005319B3 /* MockWebService.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F7DAD49F2C962085005319B3 /* MockWebServiceInterfaceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7DAD4A62C962085005319B3 /* Build configuration list for PBXNativeTarget "MockWebServiceInterfaceTests" */;
-			buildPhases = (
-				F7DAD49C2C962085005319B3 /* Sources */,
-				F7DAD49D2C962085005319B3 /* Frameworks */,
-				F7DAD49E2C962085005319B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7DAD4A52C962085005319B3 /* PBXTargetDependency */,
-			);
-			name = MockWebServiceInterfaceTests;
-			productName = MockWebServiceInterfaceTests;
-			productReference = F7DAD4A02C962085005319B3 /* MockWebServiceInterfaceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F7DAD4AE2C9621D4005319B3 /* MockUIUserInterfaceTests */ = {
 			isa = PBXNativeTarget;
@@ -232,10 +225,6 @@
 					F7DAD47C2C961A8D005319B3 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					F7DAD49F2C962085005319B3 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = F7DAD47C2C961A8D005319B3;
-					};
 					F7DAD4AE2C9621D4005319B3 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = F7DAD47C2C961A8D005319B3;
@@ -256,7 +245,6 @@
 			projectRoot = "";
 			targets = (
 				F7DAD47C2C961A8D005319B3 /* MockWebService */,
-				F7DAD49F2C962085005319B3 /* MockWebServiceInterfaceTests */,
 				F7DAD4AE2C9621D4005319B3 /* MockUIUserInterfaceTests */,
 			);
 		};
@@ -269,13 +257,6 @@
 			files = (
 				F7DAD4882C961A90005319B3 /* Preview Assets.xcassets in Resources */,
 				F7DAD4852C961A90005319B3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7DAD49E2C962085005319B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */,
+				F7DAD4C42C962E26005319B3 /* NetworkServiceFactory.swift in Sources */,
 				F7DAD49B2C961F71005319B3 /* DashboardView.swift in Sources */,
+				F7DAD4C52C962F9E005319B3 /* MockWebService.swift in Sources */,
 				F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */,
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
 				F7DAD4992C961E89005319B3 /* WebService.swift in Sources */,
@@ -303,30 +286,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7DAD49C2C962085005319B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F7DAD4AB2C9621D4005319B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DAD4C12C962CC2005319B3 /* NetworkService.swift in Sources */,
+				F7DAD4C72C963012005319B3 /* NetworkServiceFactory.swift in Sources */,
+				F7DAD4BE2C962C71005319B3 /* MockWebService.swift in Sources */,
 				F7DAD4B22C9621D5005319B3 /* MockUIUserInterfaceTests.swift in Sources */,
+				F7DAD4C02C962CBB005319B3 /* WebService.swift in Sources */,
 				F7DAD4B42C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift in Sources */,
+				F7DAD4C82C963124005319B3 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7DAD4A52C962085005319B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7DAD47C2C961A8D005319B3 /* MockWebService */;
-			targetProxy = F7DAD4A42C962085005319B3 /* PBXContainerItemProxy */;
-		};
 		F7DAD4B62C9621D5005319B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F7DAD47C2C961A8D005319B3 /* MockWebService */;
@@ -512,42 +488,6 @@
 			};
 			name = Release;
 		};
-		F7DAD4A72C962085005319B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D9CKTK39V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trvl.MockWebServiceInterfaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockWebService.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MockWebService";
-			};
-			name = Debug;
-		};
-		F7DAD4A82C962085005319B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D9CKTK39V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = trvl.MockWebServiceInterfaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockWebService.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MockWebService";
-			};
-			name = Release;
-		};
 		F7DAD4B82C9621D5005319B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -599,15 +539,6 @@
 			buildConfigurations = (
 				F7DAD48C2C961A90005319B3 /* Debug */,
 				F7DAD48D2C961A90005319B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7DAD4A62C962085005319B3 /* Build configuration list for PBXNativeTarget "MockWebServiceInterfaceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7DAD4A72C962085005319B3 /* Debug */,
-				F7DAD4A82C962085005319B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
