@@ -12,6 +12,7 @@
 		F7DAD4882C961A90005319B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DAD4872C961A90005319B3 /* Preview Assets.xcassets */; };
 		F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */; };
 		F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4922C961D24005319B3 /* LoginView.swift */; };
+		F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F7DAD4872C961A90005319B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		F7DAD4922C961D24005319B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F7DAD48E2C961ABD005319B3 /* Models */,
+				F7DAD4962C961E31005319B3 /* ViewModels */,
 				F7DAD4912C961D0C005319B3 /* Views */,
 				F7DAD4842C961A90005319B3 /* Assets.xcassets */,
 				F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */,
@@ -84,6 +87,14 @@
 				F7DAD4922C961D24005319B3 /* LoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F7DAD4962C961E31005319B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */,
 				F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */,
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
 				F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */,
