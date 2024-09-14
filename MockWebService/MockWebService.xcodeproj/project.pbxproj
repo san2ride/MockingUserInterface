@@ -17,6 +17,7 @@
 		F7DAD49B2C961F71005319B3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD49A2C961F71005319B3 /* DashboardView.swift */; };
 		F7DAD4B22C9621D5005319B3 /* MockUIUserInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */; };
 		F7DAD4B42C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */; };
+		F7DAD4BB2C962B5E005319B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F7DAD4AF2C9621D5005319B3 /* MockUIUserInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockUIUserInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIUserInterfaceTests.swift; sourceTree = "<group>"; };
 		F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIUserInterfaceTestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F7DAD4982C961E89005319B3 /* WebService.swift */,
+				F7DAD4BA2C962B5E005319B3 /* NetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
 				F7DAD4992C961E89005319B3 /* WebService.swift in Sources */,
 				F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */,
+				F7DAD4BB2C962B5E005319B3 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

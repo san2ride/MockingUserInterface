@@ -13,7 +13,7 @@ enum NetworkError: Error {
     case notAuthenticated
 }
 
-class WebService {
+class WebService: NetworkService {
     
     func login(username: String, password: String, completion: @escaping (Result<Void, NetworkError>) -> Void) {
         
