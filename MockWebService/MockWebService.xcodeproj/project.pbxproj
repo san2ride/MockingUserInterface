@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */; };
-		F7DAD4832C961A8D005319B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4822C961A8D005319B3 /* ContentView.swift */; };
 		F7DAD4852C961A90005319B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DAD4842C961A90005319B3 /* Assets.xcassets */; };
 		F7DAD4882C961A90005319B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DAD4872C961A90005319B3 /* Preview Assets.xcassets */; };
 		F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */; };
+		F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4922C961D24005319B3 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7DAD47D2C961A8D005319B3 /* MockWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebServiceApp.swift; sourceTree = "<group>"; };
-		F7DAD4822C961A8D005319B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7DAD4842C961A90005319B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7DAD4872C961A90005319B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		F7DAD4922C961D24005319B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F7DAD48E2C961ABD005319B3 /* Models */,
-				F7DAD4822C961A8D005319B3 /* ContentView.swift */,
+				F7DAD4912C961D0C005319B3 /* Views */,
 				F7DAD4842C961A90005319B3 /* Assets.xcassets */,
 				F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */,
 				F7DAD4862C961A90005319B3 /* Preview Content */,
@@ -76,6 +76,14 @@
 				F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7DAD4912C961D0C005319B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD4922C961D24005319B3 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DAD4832C961A8D005319B3 /* ContentView.swift in Sources */,
+				F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */,
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
 				F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */,
 			);
