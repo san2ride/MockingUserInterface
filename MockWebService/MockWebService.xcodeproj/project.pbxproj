@@ -13,6 +13,7 @@
 		F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */; };
 		F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4922C961D24005319B3 /* LoginView.swift */; };
 		F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */; };
+		F7DAD4992C961E89005319B3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4982C961E89005319B3 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F7DAD48F2C961AD8005319B3 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		F7DAD4922C961D24005319B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F7DAD4982C961E89005319B3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				F7DAD48E2C961ABD005319B3 /* Models */,
 				F7DAD4962C961E31005319B3 /* ViewModels */,
 				F7DAD4912C961D0C005319B3 /* Views */,
+				F7DAD4972C961E72005319B3 /* Service */,
 				F7DAD4842C961A90005319B3 /* Assets.xcassets */,
 				F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */,
 				F7DAD4862C961A90005319B3 /* Preview Content */,
@@ -95,6 +98,14 @@
 				F7DAD4942C961DF9005319B3 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7DAD4972C961E72005319B3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD4982C961E89005319B3 /* WebService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				F7DAD4952C961DF9005319B3 /* LoginViewModel.swift in Sources */,
 				F7DAD4932C961D24005319B3 /* LoginView.swift in Sources */,
 				F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */,
+				F7DAD4992C961E89005319B3 /* WebService.swift in Sources */,
 				F7DAD4902C961AD8005319B3 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
