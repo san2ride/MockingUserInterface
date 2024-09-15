@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F783F8F52C9696C500ECAC04 /* LoginPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783F8F42C9696C500ECAC04 /* LoginPageObject.swift */; };
 		F7DAD4812C961A8D005319B3 /* MockWebServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */; };
 		F7DAD4852C961A90005319B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DAD4842C961A90005319B3 /* Assets.xcassets */; };
 		F7DAD4882C961A90005319B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DAD4872C961A90005319B3 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F783F8F42C9696C500ECAC04 /* LoginPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageObject.swift; sourceTree = "<group>"; };
 		F7DAD47D2C961A8D005319B3 /* MockWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DAD4802C961A8D005319B3 /* MockWebServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebServiceApp.swift; sourceTree = "<group>"; };
 		F7DAD4842C961A90005319B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F783F8F32C9696A800ECAC04 /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F783F8F42C9696C500ECAC04 /* LoginPageObject.swift */,
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
 		F7DAD4742C961A8D005319B3 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 		F7DAD4B02C9621D5005319B3 /* MockUIUserInterfaceTests */ = {
 			isa = PBXGroup;
 			children = (
+				F783F8F32C9696A800ECAC04 /* Page Objects */,
 				F7DAD4BC2C962C5B005319B3 /* Mocks */,
 				F7DAD4B12C9621D5005319B3 /* MockUIUserInterfaceTests.swift */,
 				F7DAD4B32C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift */,
@@ -295,6 +306,7 @@
 				F7DAD4BE2C962C71005319B3 /* MockWebService.swift in Sources */,
 				F7DAD4B22C9621D5005319B3 /* MockUIUserInterfaceTests.swift in Sources */,
 				F7DAD4C02C962CBB005319B3 /* WebService.swift in Sources */,
+				F783F8F52C9696C500ECAC04 /* LoginPageObject.swift in Sources */,
 				F7DAD4B42C9621D5005319B3 /* MockUIUserInterfaceTestsLaunchTests.swift in Sources */,
 				F7DAD4C82C963124005319B3 /* LoginResponse.swift in Sources */,
 			);
